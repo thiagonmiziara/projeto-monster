@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient( black 70%, gray);
+}
+
+header {
+    padding: 0 50px;
+    background: #000000;
+    text-align: center;
+    margin: 0 0 auto;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caixa {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+main {
+    margin: 20px auto;
+}
+
+.imagen {
+    width: 400px;
+    position: relative;
+    margin-top: 10em;
+    box-sizing: border-box;
+}
+
+.latagrandeverde {
+    width: 22%;
+    float: right;
+    clear: left;
+    margin: 160px 500px 0 0;
+}
+
+p {
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 1.5em 0 1em;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.lataverde {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -500px 300px 300px 100px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+.lataazul {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -500px 160px 400px 100px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.latadark {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -280px -128px 0px 100px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.lataverde:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    box-shadow: inset 5px 5px 5px 5px #353434;
+}
+
+.lataazul:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    box-shadow: inset 5px 5px 5px 5px #353434;
+}
+
+.latadark:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    box-shadow: inset 5px 5px 5px 5px #353434;
+}
