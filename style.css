@@ -2,6 +2,7 @@
     body {
         max-width: 100%;
         overflow-x: hidden;
+        font-family: 'montserrat', sans-serif;
     }
     
     body {
@@ -127,35 +128,32 @@
         margin: 160px 500px 0 0;
     }
     
+    .latas {
+        box-sizing: content-box;
+        margin: 10px 10px 10px 10px;
+        width: 100%;
+    }
+    
+    .latas-pequenas {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        text-align: center;
+        margin-top: -425px;
+        margin-left: 620px;
+        padding: 10px 10px 10px 10px;
+    }
+    
     .lataverde {
-        box-sizing: border-box;
-        float: right;
-        clear: left;
-        margin: -440px 300px 300px 100px;
-        border-radius: 20px;
-        border: none;
-        color: black;
+        padding: 0px 10px 10px 20px;
     }
     
     .lataazul {
-        box-sizing: border-box;
-        float: right;
-        clear: left;
-        margin: -440px -320px 400px 100px;
-        border-radius: 5px;
-        border: none;
-        color: black;
+        padding: 0px 10px 10px 10px;
     }
     
     .latadark {
-        box-sizing: border-box;
-        float: right;
-        clear: left;
-        margin: -230px -195px 10px 0px;
-        border-radius: 5px;
-        border: none;
-        color: black;
-        width: 90px;
+        padding: 0px 10px 10px 10px;
     }
     
     .lataverde:hover {
@@ -174,11 +172,6 @@
         transform: scale(1.2);
         transition: 1s;
         box-shadow: inset 5px 5px 5px 5px #303030;
-    }
-    
-    .latas {
-        box-sizing: content-box;
-        margin: 10px 10px 10px 10px;
     }
     
     #recomendado {
