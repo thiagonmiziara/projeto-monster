@@ -1,289 +1,310 @@
-        body {
-            background: black;
-        }
-        
-        .caixa {
-            position: relative;
-            width: 1600px;
-            max-width: 100%;
-            padding: 10px 10px 5px;
-            text-decoration: unset;
-        }
-        
-        .logo {
-            float: left;
-            width: 15%;
-            height: 100%;
-        }
-        
-        .navegacao {
-            float: left;
-            width: 70%;
-            height: 100%;
-            margin-top: 25px;
-            text-transform: uppercase;
-        }
-        
-        nav {
-            display: inline;
-            margin: 0 auto;
-            padding-top: 10px;
-        }
-        
-        .links {
-            font-size: 15PX;
-            padding: 30px 10px 38px 9px;
-        }
-        
-        a {
-            color: white;
-            text-decoration: none;
-            font-weight: 800;
-            font-size: 16px;
-            text-transform: uppercase;
-            padding-left: 20px;
-        }
-        
-        a:hover {
-            color: rgb(92, 226, 92);
-        }
-        
-        .links-img {
-            width: 100%;
-            height: 100%;
-            position: relative;
-            text-align: left;
-            margin: 0 auto;
-        }
-        
-        .segundo-links {
-            position: absolute;
-            top: 110px;
-            left: 0;
-            margin: 0 auto;
-            background: #2c2c2c;
-            width: 100%;
-        }
-        
-        nav li {
-            display: inline;
-            margin: 0 0 0 15px;
-        }
-        
-        main {
-            margin: 20px auto;
-        }
-        
-        .imagen {
-            width: 350px;
-            position: relative;
-            margin-top: 10em;
-            box-sizing: border-box;
-            margin-left: 50px;
-        }
-        
-        .texto-principal {
-            text-align: left;
-            font-size: 16.8px;
-            color: white;
-            font-weight: bold;
-            width: 400px;
-            margin: 0 1.5em 0 1em;
-            border: 0;
-            position: relative;
-            box-sizing: border-box;
-            line-height: 25px;
-            margin-left: 50px;
-        }
-        
-        .latagrandeverde {
-            width: 200px;
-            float: right;
-            clear: left;
-            margin: 160px 500px 0 0;
-        }
-        
-        .lataverde {
-            box-sizing: border-box;
-            float: right;
-            clear: left;
-            margin: -440px 300px 300px 100px;
-            border-radius: 20px;
-            border: none;
-            color: black;
-        }
-        
-        .lataazul {
-            box-sizing: border-box;
-            float: right;
-            clear: left;
-            margin: -440px -320px 400px 100px;
-            border-radius: 5px;
-            border: none;
-            color: black;
-        }
-        
-        .latadark {
-            box-sizing: border-box;
-            float: right;
-            clear: left;
-            margin: -230px -195px 10px 0px;
-            border-radius: 5px;
-            border: none;
-            color: black;
-            width: 90px;
-        }
-        
-        .lataverde:hover {
-            transform: scale(1.2);
-            transition: 1s;
-            box-shadow: inset 5px 5px 5px 5px #353434;
-        }
-        
-        .lataazul:hover {
-            transform: scale(1.2);
-            transition: 1s;
-            box-shadow: inset 5px 5px 5px 5px #353434;
-        }
-        
-        .latadark:hover {
-            transform: scale(1.2);
-            transition: 1s;
-            box-shadow: inset 5px 5px 5px 5px #353434;
-        }
-        
-        .latas {
-            box-sizing: content-box;
-            margin: 10px 10px 10px 10px;
-        }
-        
-        h2 {
-            font-weight: bold;
-            color: rgb(65, 63, 63);
-        }
-        
-        .recomendado {
-            text-align: center;
-            font-size: 150px;
-            width: 100%;
-            margin-top: 2.5em;
-            background: black;
-        }
-        
-        .paravoce {
-            color: #fff;
-            position: absolute;
-            font-weight: 900;
-            font-size: 3.429em;
-            text-align: center;
-            width: 100%;
-            text-transform: uppercase;
-            top: 20.30em;
-            left: 0;
-        }
-        
-        .mentalidade {
-            float: left;
-            width: 30%;
-            height: 100%;
-            padding-left: 5px;
-            padding-top: 100px;
-            margin-left: 30px;
-        }
-        
-        .moto {
-            border: 3px solid silver;
-            width: 95%;
-            height: 100%;
-        }
-        
-        .moto:hover {
-            border: 3px solid green;
-            cursor: pointer;
-        }
-        
-        .texto-img {
-            color: #fefefe;
-            text-transform: uppercase;
-            text-align: left;
-            padding-right: 100px;
-            margin: 0;
-        }
-        
-        .texto-img:hover {
-            color: green;
-            cursor: pointer;
-        }
-        
-        .related {
-            font-size: 14px;
-        }
-        
-        .rodape {
-            width: 50%;
-            color: white;
-            font-size: 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-            line-height: 50px;
-            margin-left: 25px;
-        }
-        
-        footer {
-            background: gray;
-            margin-top: 330px;
-        }
-        
-        .rodape2 {
-            width: 20%;
-            text-align: left;
-            line-height: 50px;
-            cursor: pointer;
-        }
-        
-        #lingua {
-            color: gray;
-            margin-left: 15px;
-        }
-        
-        .monster-girl {
-            width: 50%;
-            color: white;
-            font-size: 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        
-        .legal {
-            text-align: center;
-            box-sizing: border-box;
-            margin: -225px 500px 50px 0;
-            line-height: 50px;
-            font-size: 15px;
-        }
-        
-        .nossiga {
-            text-align: center;
-            box-sizing: border-box;
-            margin: -220px 550px 200px 400px;
-            line-height: 40px;
-            font-size: 15px;
-        }
-        
-        h4 {
-            font-size: 20px;
-            color: white;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        
-        .lista-legal {
-            line-height: 25px;
-            text-align: left;
-            margin-left: 320px;
-        }
-        
-        .lista-rodape2 {
-            line-height: 80px;
-            font-size: 20px;
-        }
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    background: black;
+}
+
+li:hover {
+    color: rgb(92, 226, 92);
+}
+
+nav {
+    display: inline;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+main {
+    margin: 20px auto;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+}
+
+footer {
+    background: #303030;
+    width: 100%;
+    height: 80%;
+}
+
+.section-header {
+    position: relative;
+    max-width: 100%;
+}
+
+.logo-header {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.naviagation-header {
+    width: 75%;
+    height: 100%;
+    float: right;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.naviagation-header li {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.links {
+    font-size: 15PX;
+    padding: 30px 10px 38px 9px;
+}
+
+.links-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.segundo-links {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    margin: 0 auto;
+    background: #2c2c2c;
+    width: 100%;
+}
+
+.imagen {
+    width: 350px;
+    position: relative;
+    margin-top: 10em;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.texto-principal {
+    text-align: left;
+    font-size: 16.8px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 1.5em 0 1em;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+.latagrandeverde {
+    width: 200px;
+    float: right;
+    clear: left;
+    margin: 160px 500px 0 0;
+}
+
+.lataverde {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -440px 300px 300px 100px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+.lataazul {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -440px -320px 400px 100px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.latadark {
+    box-sizing: border-box;
+    float: right;
+    clear: left;
+    margin: -230px -195px 10px 0px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    width: 90px;
+}
+
+.lataverde:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+}
+
+.lataazul:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+}
+
+.latadark:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+}
+
+.latas {
+    box-sizing: content-box;
+    margin: 10px 10px 10px 10px;
+}
+
+#recomendado {
+    width: 100%;
+    margin-top: 100px;
+    font-weight: 800;
+    font-family: proximanova;
+    font-size: 8.714em;
+    text-align: center;
+    line-height: 1;
+    color: rgba(160, 160, 160, .47);
+    mix-blend-mode: hard-light;
+    white-space: pre;
+    text-transform: uppercase;
+    -webkit-mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
+    mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
+}
+
+#paravoce {
+    position: absolute;
+    color: #fff;
+    top: 25px;
+    text-align: center;
+    z-index: 9;
+    font-weight: 900;
+    font-size: 3.429em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.section-img {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mentalidade {
+    float: left;
+    width: 30%;
+    padding-left: 5px;
+    margin-left: 30px;
+}
+
+.moto {
+    border: 3px solid silver;
+    width: 95%;
+    height: 100%;
+}
+
+.moto:hover {
+    border: 3px solid green;
+    cursor: pointer;
+}
+
+.texto-img {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    margin: 0;
+}
+
+.texto-img:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.title-list {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+}
+
+.section-1 {
+    margin-left: 20px;
+    color: white;
+}
+
+.section-1 li {
+    padding: 30px 10px 38px 9px;
+    display: inline-block;
+}
+
+.section-2 {
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    color: white;
+}
+
+.mais-informacoes {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+}
+
+.lista-1 {
+    width: 33%;
+    float: left;
+}
+
+.lista-2 {
+    font-size: 10px;
+    width: 33%;
+    float: right;
+}
+
+.lista-3 {
+    font-size: 10px;
+    float: right;
+    width: 33%;
+}
+
+.lista-1,
+.lista-2,
+.lista-3 li {
+    padding: 0 0 20px 10px;
+    display: block;
+}
+
+.assine {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
