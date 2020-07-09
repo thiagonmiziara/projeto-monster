@@ -1,458 +1,462 @@
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-        font-family: 'Open Sans';
-    }
-    
-    body {
-        width: 100%;
-        background: black;
-    }
-    
-    nav {
-        display: inline;
-        margin: 0 auto;
-        padding-top: 10px;
-    }
-    
-    a {
-        color: white;
-        text-decoration: none;
-        font-weight: 800;
-        font-size: 16px;
-        text-transform: uppercase;
-        padding-left: 20px;
-    }
-    
-    nav li {
-        display: inline;
-        margin: 0 0 0 15px;
-    }
-    
-    main {
-        margin: 20px auto;
-    }
-    
-    h2 {
-        font-weight: bold;
-        color: rgb(65, 63, 63);
-    }
-    
-    legend {
-        text-align: left;
-        display: table;
-        margin-top: -20px;
-        font-weight: bold;
-        font-size: large;
-        text-transform: uppercase;
-    }
-    
-    footer {
-        background: #303030;
-        width: 100%;
-        height: 80%;
-    }
-    
-    .section-header {
-        position: relative;
-        max-width: 100%;
-    }
-    
-    .logo-header {
-        float: left;
-        width: 25%;
-        height: 100%;
-    }
-    
-    .naviagation-header {
-        width: 75%;
-        height: 100%;
-        float: right;
-        margin-top: 25px;
-        text-transform: uppercase;
-    }
-    
-    .naviagation-header li {
-        color: white;
-        text-decoration: none;
-        font-weight: 800;
-        font-size: 16px;
-        text-transform: uppercase;
-        padding-left: 20px;
-    }
-    
-    .links {
-        width: 100%;
-        font-size: 15PX;
-        padding: 30px 10px 38px 9px;
-    }
-    
-    .links:hover {
-        color: green;
-        cursor: pointer;
-    }
-    
-    .links-img {
-        position: relative;
-        text-align: left;
-        margin: 0 auto;
-    }
-    
-    .segundo-links {
-        position: absolute;
-        top: 110px;
-        left: 0;
-        margin: 0 auto;
-        background: linear-gradient(black 0.1%, #303030);
-        width: 100%;
-    }
-    
-    .img-energy-link {
-        width: 10%;
-        text-align: left;
-        padding: 0 2.3em;
-        border-right: 1px solid rgba(0, 0, 0, .37);
-        padding-bottom: 10px;
-    }
-    
-    .img-ultra-link {
-        width: 10%;
-        text-align: left;
-        padding: 0 2.3em;
-        border-right: 1px solid rgba(0, 0, 0, .37);
-        padding-bottom: 10px;
-    }
-    
-    .img-juice-link {
-        width: 10%;
-        text-align: left;
-        border-right: 1px solid rgba(0, 0, 0, .37);
-        padding: 0 2.3em;
-        padding-bottom: 10px;
-    }
-    
-    .img-dragon-link {
-        width: 10%;
-        text-align: center;
-        padding: 0.2 2.3em;
-        padding-bottom: 15px;
-    }
-    
-    .imagen {
-        width: 350px;
-        position: relative;
-        margin-top: 10em;
-        box-sizing: border-box;
-        margin-left: 50px;
-    }
-    
-    .texto-principal {
-        text-align: left;
-        font-size: 16.8px;
-        color: white;
-        font-weight: bold;
-        width: 400px;
-        margin: 0 1.5em 0 1em;
-        border: 0;
-        position: relative;
-        box-sizing: border-box;
-        line-height: 25px;
-        margin-left: 50px;
-    }
-    
-    .latagrandeverde {
-        width: 200px;
-        float: right;
-        clear: left;
-        margin: 160px 500px 0 0;
-    }
-    
-    .latas {
-        box-sizing: content-box;
-        margin: 10px 10px 10px 10px;
-        width: 100%;
-    }
-    
-    .latas-pequenas {
-        display: inline-block;
-        float: left;
-        width: 50%;
-        text-align: center;
-        margin-top: -425px;
-        margin-left: 620px;
-        padding: 10px 10px 10px 10px;
-    }
-    
-    .lataverde {
-        padding: 0px 10px 10px 20px;
-    }
-    
-    .lataazul {
-        padding: 0px 10px 10px 10px;
-    }
-    
-    .latadark {
-        padding: 0px 10px 10px 10px;
-    }
-    
-    .lataverde:hover {
-        transform: scale(1.2);
-        transition: 1s;
-        box-shadow: inset 5px 5px 5px 5px #303030;
-        cursor: pointer;
-    }
-    
-    .lataazul:hover {
-        transform: scale(1.2);
-        transition: 1s;
-        box-shadow: inset 5px 5px 5px 5px #303030;
-        cursor: pointer;
-    }
-    
-    .latadark:hover {
-        transform: scale(1.2);
-        transition: 1s;
-        box-shadow: inset 5px 5px 5px 5px #303030;
-        cursor: pointer;
-    }
-    
-    #recomendado {
-        width: 100%;
-        margin-top: 100px;
-        font-weight: 800;
-        font-family: proximanova;
-        font-size: 8.714em;
-        text-align: center;
-        line-height: 1;
-        color: rgba(160, 160, 160, .47);
-        mix-blend-mode: hard-light;
-        white-space: pre;
-        text-transform: uppercase;
-        -webkit-mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
-        mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
-    }
-    
-    #paravoce {
-        width: 100%;
-        position: absolute;
-        color: #fff;
-        top: 25px;
-        text-align: center;
-        z-index: 9;
-        font-weight: 900;
-        font-size: 3.429em;
-        text-transform: uppercase;
-        overflow: hidden;
-        margin-top: 14.2em;
-    }
-    
-    .section-img {
-        width: 100%;
-        height: 300px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    
-    .mentalidade {
-        float: left;
-        width: 30%;
-        padding-left: 5px;
-        margin-left: 30px;
-    }
-    
-    .moto {
-        border: 3px solid silver;
-        width: 95%;
-        height: 100%;
-    }
-    
-    .moto:hover {
-        border: 3px solid green;
-        cursor: pointer;
-    }
-    
-    .texto-img {
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: large;
-        text-align: left;
-        margin: 0;
-    }
-    
-    .texto-img:hover {
-        color: green;
-        cursor: pointer;
-    }
-    
-    .title-list {
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: large;
-        margin-top: 10px;
-    }
-    
-    #monster-girl {
-        line-height: 15px;
-        margin-top: 18px;
-    }
-    
-    .section-1 {
-        margin-left: 20px;
-        color: white;
-        font-family: 'Open Sans';
-        font-size: 14px;
-    }
-    
-    .section-1 li {
-        padding: 30px 10px 38px 9px;
-        display: inline-block;
-    }
-    
-    .section-2 {
-        width: 100%;
-        height: 200px;
-        margin-left: 20px;
-        color: white;
-        font-family: 'Open Sans';
-    }
-    
-    .mais-informacoes {
-        width: 50%;
-        height: 100%;
-        float: left;
-        display: flex;
-    }
-    
-    .lista-1 {
-        width: 33%;
-        float: left;
-    }
-    
-    .lista-2 {
-        font-size: 10px;
-        width: 33%;
-        float: right;
-        color: black;
-    }
-    
-    .lista-3 {
-        font-size: 10px;
-        float: right;
-        width: 33%;
-        color: black;
-    }
-    
-    .lista-1,
-    .lista-2,
-    .lista-3 li {
-        padding: 0 0 20px 10px;
-        display: block;
-        line-height: 3em;
-        margin-top: -19px;
-    }
-    
-    .hover-links {
-        color: white;
-    }
-    
-    .hover-links:hover {
-        cursor: pointer;
-    }
-    
-    .assine {
-        width: 50%;
-        height: 100%;
-        float: right;
-        text-align: left;
-    }
-    
-    .assina {
-        width: 65%;
-        margin-top: 140px;
-        margin-left: -20px;
-        padding: 10px 10px 10px 10px;
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: large;
-        background: rgb(140, 198, 63);
-    }
-    
-    .section-email {
-        width: 50%;
-        height: 100%;
-        float: right;
-    }
-    
-    .lista-email {
-        margin-top: -200px;
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: large;
-        margin-bottom: 39px;
-        font-size: 16px;
-    }
-    
-    #subtitle-email {
-        font-size: 11px;
-        margin-top: 20px;
-        width: 60%;
-        text-align: left;
-        display: block;
-    }
-    
-    .input-email {
-        height: 21px;
-        width: 60%;
-        border: none;
-        background: 0 0;
-        padding: 20px 3px;
-        font-size: 16px;
-        border-radius: 5px;
-        margin-top: -50px;
-        text-align: left;
-    }
-    
-    .btn-email {
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        font: inherit;
-        color: white;
-        padding: 10px 10px 10px;
-        opacity: 1;
-        margin-left: -5px;
-        background: rgb(48, 48, 48);
-        width: 100%;
-        border-color: white;
-    }
-    
-    .btn-option {
-        height: 30px;
-        width: 70%;
-        border: none;
-        background: 0 0;
-        padding: 20px 3px;
-        font-size: 16px;
-        border-radius: 5px;
-        text-align: left;
-    }
-    
-    .btn-portugues {
-        border: none;
-        font: inherit;
-        color: white;
-        opacity: 1;
-        background: rgb(48, 48, 48);
-        width: 100%;
-        border-color: white;
-        margin-left: -5px;
-        margin-top: -20px;
-        font-weight: bold;
-        font-size: large;
-        display: table;
-    }
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+}
+
+body {
+    width: 100%;
+    background: black;
+}
+
+nav {
+    display: inline;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+main {
+    margin: 20px auto;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+}
+
+legend {
+    text-align: left;
+    display: table;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+footer {
+    background: #303030;
+    width: 100%;
+    height: 80%;
+}
+
+.section-header {
+    position: relative;
+    max-width: 100%;
+}
+
+.logo-header {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.naviagation-header {
+    width: 75%;
+    height: 100%;
+    float: right;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.naviagation-header li {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.links {
+    width: 100%;
+    font-size: 15PX;
+    padding: 30px 10px 38px 9px;
+}
+
+.links:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.links-img {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.segundo-links {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    margin: 0 auto;
+    background: linear-gradient(black 0.1%, #303030);
+    width: 100%;
+}
+
+.img-energy-link {
+    width: 10%;
+    text-align: left;
+    padding: 0 2.3em;
+    border-right: 1px solid rgba(0, 0, 0, .37);
+    padding-bottom: 10px;
+}
+
+.img-ultra-link {
+    width: 10%;
+    text-align: left;
+    padding: 0 2.3em;
+    border-right: 1px solid rgba(0, 0, 0, .37);
+    padding-bottom: 10px;
+}
+
+.img-juice-link {
+    width: 10%;
+    text-align: left;
+    border-right: 1px solid rgba(0, 0, 0, .37);
+    padding: 0 2.3em;
+    padding-bottom: 10px;
+}
+
+.img-dragon-link {
+    width: 10%;
+    text-align: center;
+    padding: 0.2 2.3em;
+    padding-bottom: 15px;
+}
+
+.imagen {
+    width: 350px;
+    position: relative;
+    margin-top: 10em;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.texto-principal {
+    text-align: left;
+    font-size: 16.8px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 1.5em 0 1em;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+.latagrandeverde {
+    width: 200px;
+    float: right;
+    clear: left;
+    margin: 160px 500px 0 0;
+}
+
+.latas {
+    box-sizing: content-box;
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.latas-pequenas {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: -425px;
+    margin-left: 620px;
+    padding: 10px 10px 10px 10px;
+}
+
+.lataverde {
+    padding: 0px 10px 10px 20px;
+}
+
+.lataazul {
+    padding: 0px 10px 10px 10px;
+}
+
+.latadark {
+    padding: 0px 10px 10px 10px;
+}
+
+.lataverde:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+    cursor: pointer;
+}
+
+.lataazul:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+    cursor: pointer;
+}
+
+.latadark:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: inset 5px 5px 5px 5px #303030;
+    cursor: pointer;
+}
+
+#recomendado {
+    width: 100%;
+    margin-top: 100px;
+    font-weight: 800;
+    font-family: proximanova;
+    font-size: 8.714em;
+    text-align: center;
+    line-height: 1;
+    color: rgba(160, 160, 160, .47);
+    mix-blend-mode: hard-light;
+    white-space: pre;
+    text-transform: uppercase;
+    -webkit-mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
+    mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 16%, rgba(254, 255, 255, .95) 60%);
+}
+
+#paravoce {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    top: 25px;
+    text-align: center;
+    z-index: 9;
+    font-weight: 900;
+    font-size: 3.429em;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 14.2em;
+}
+
+.section-img {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mentalidade {
+    float: left;
+    width: 30%;
+    padding-left: 5px;
+    margin-left: 30px;
+}
+
+.moto {
+    border: 3px solid silver;
+    width: 95%;
+    height: 100%;
+}
+
+.moto:hover {
+    border: 3px solid green;
+    cursor: pointer;
+}
+
+.texto-img {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    margin: 0;
+}
+
+.texto-img:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.title-list {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#monster-girl {
+    line-height: 15px;
+    margin-top: 18px;
+}
+
+.section-1 {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.section-1 li {
+    padding: 30px 10px 38px 9px;
+    display: inline-block;
+}
+
+.section-2 {
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.mais-informacoes {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+}
+
+.lista-1 {
+    width: 33%;
+    float: left;
+}
+
+.lista-2 {
+    font-size: 10px;
+    width: 33%;
+    float: right;
+    color: black;
+}
+
+.lista-3 {
+    font-size: 10px;
+    float: right;
+    width: 33%;
+    color: black;
+}
+
+.lista-1,
+.lista-2,
+.lista-3 li {
+    padding: 0 0 20px 10px;
+    display: block;
+    line-height: 3em;
+    margin-top: -19px;
+}
+
+.hover-links {
+    color: white;
+}
+
+.hover-links:hover {
+    cursor: pointer;
+}
+
+.assine {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+.assina {
+    width: 65%;
+    margin-top: 140px;
+    margin-left: -20px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    background: rgb(140, 198, 63);
+}
+
+.assina:hover {
+    cursor: pointer;
+}
+
+.section-email {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.lista-email {
+    margin-top: -200px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 39px;
+    font-size: 16px;
+}
+
+#subtitle-email {
+    font-size: 11px;
+    margin-top: 20px;
+    width: 60%;
+    text-align: left;
+    display: block;
+}
+
+.input-email {
+    height: 21px;
+    width: 60%;
+    border: none;
+    background: 0 0;
+    padding: 20px 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: -50px;
+    text-align: left;
+}
+
+.btn-email {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font: inherit;
+    color: white;
+    padding: 10px 10px 10px;
+    opacity: 1;
+    margin-left: -5px;
+    background: rgb(48, 48, 48);
+    width: 100%;
+    border-color: white;
+}
+
+.btn-option {
+    height: 30px;
+    width: 70%;
+    border: none;
+    background: 0 0;
+    padding: 20px 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.btn-portugues {
+    border: none;
+    font: inherit;
+    color: white;
+    opacity: 1;
+    background: rgb(48, 48, 48);
+    width: 100%;
+    border-color: white;
+    margin-left: -5px;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: large;
+    display: table;
+}
