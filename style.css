@@ -2,16 +2,12 @@
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: 'montserrat', sans-serif;
+        font-family: 'Open Sans';
     }
     
     body {
         width: 100%;
         background: black;
-    }
-    
-    li:hover {
-        color: rgb(92, 226, 92);
     }
     
     nav {
@@ -41,6 +37,15 @@
     h2 {
         font-weight: bold;
         color: rgb(65, 63, 63);
+    }
+    
+    legend {
+        text-align: left;
+        display: table;
+        margin-top: -20px;
+        font-weight: bold;
+        font-size: large;
+        text-transform: uppercase;
     }
     
     footer {
@@ -99,7 +104,7 @@
         top: 110px;
         left: 0;
         margin: 0 auto;
-        background: #303030;
+        background: linear-gradient(black 0.1%, #303030);
         width: 100%;
     }
     
@@ -108,6 +113,7 @@
         text-align: left;
         padding: 0 2.3em;
         border-right: 1px solid rgba(0, 0, 0, .37);
+        padding-bottom: 10px;
     }
     
     .img-ultra-link {
@@ -115,6 +121,7 @@
         text-align: left;
         padding: 0 2.3em;
         border-right: 1px solid rgba(0, 0, 0, .37);
+        padding-bottom: 10px;
     }
     
     .img-juice-link {
@@ -122,12 +129,14 @@
         text-align: left;
         border-right: 1px solid rgba(0, 0, 0, .37);
         padding: 0 2.3em;
+        padding-bottom: 10px;
     }
     
     .img-dragon-link {
         width: 10%;
         text-align: center;
         padding: 0.2 2.3em;
+        padding-bottom: 15px;
     }
     
     .imagen {
@@ -191,18 +200,21 @@
         transform: scale(1.2);
         transition: 1s;
         box-shadow: inset 5px 5px 5px 5px #303030;
+        cursor: pointer;
     }
     
     .lataazul:hover {
         transform: scale(1.2);
         transition: 1s;
         box-shadow: inset 5px 5px 5px 5px #303030;
+        cursor: pointer;
     }
     
     .latadark:hover {
         transform: scale(1.2);
         transition: 1s;
         box-shadow: inset 5px 5px 5px 5px #303030;
+        cursor: pointer;
     }
     
     #recomendado {
@@ -290,6 +302,8 @@
     .section-1 {
         margin-left: 20px;
         color: white;
+        font-family: 'Open Sans';
+        font-size: 14px;
     }
     
     .section-1 li {
@@ -302,6 +316,7 @@
         height: 200px;
         margin-left: 20px;
         color: white;
+        font-family: 'Open Sans';
     }
     
     .mais-informacoes {
@@ -320,12 +335,14 @@
         font-size: 10px;
         width: 33%;
         float: right;
+        color: black;
     }
     
     .lista-3 {
         font-size: 10px;
         float: right;
         width: 33%;
+        color: black;
     }
     
     .lista-1,
@@ -335,6 +352,14 @@
         display: block;
         line-height: 3em;
         margin-top: -19px;
+    }
+    
+    .hover-links {
+        color: white;
+    }
+    
+    .hover-links:hover {
+        cursor: pointer;
     }
     
     .assine {
@@ -369,6 +394,7 @@
         font-weight: bold;
         font-size: large;
         margin-bottom: 39px;
+        font-size: 16px;
     }
     
     #subtitle-email {
@@ -383,7 +409,6 @@
         height: 21px;
         width: 60%;
         border: none;
-        border-bottom: 1px solid #fff;
         background: 0 0;
         padding: 20px 3px;
         font-size: 16px;
@@ -393,11 +418,41 @@
     }
     
     .btn-email {
+        border-top: none;
+        border-left: none;
+        border-right: none;
         font: inherit;
         color: white;
         padding: 10px 10px 10px;
-        opacity: ;
+        opacity: 1;
         margin-left: -5px;
         background: rgb(48, 48, 48);
         width: 100%;
+        border-color: white;
+    }
+    
+    .btn-option {
+        height: 30px;
+        width: 70%;
+        border: none;
+        background: 0 0;
+        padding: 20px 3px;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: left;
+    }
+    
+    .btn-portugues {
+        border: none;
+        font: inherit;
+        color: white;
+        opacity: 1;
+        background: rgb(48, 48, 48);
+        width: 100%;
+        border-color: white;
+        margin-left: -5px;
+        margin-top: -20px;
+        font-weight: bold;
+        font-size: large;
+        display: table;
     }
