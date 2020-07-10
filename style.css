@@ -478,7 +478,6 @@
             position: static;
             display: flex;
             padding-top: 70px;
-            font-size: 36px;
         }
         .links-img {
             position: relative;
@@ -588,6 +587,7 @@
         }
         footer {
             width: auto;
+            margin-top: 49em;
         }
         .section-2 {
             width: 100%;
@@ -622,7 +622,7 @@
         .lista-3 li {
             padding: 0 0 20px 10px;
             display: block;
-            line-height: 3em;
+            line-height: 2.5em;
             margin-top: -100px;
         }
         .assine {
