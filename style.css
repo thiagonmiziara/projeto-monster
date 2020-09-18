@@ -454,7 +454,7 @@ footer {
     display: table;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 698px) {
     .section-header {
         text-align: center;
         position: static;
